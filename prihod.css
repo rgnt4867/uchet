@@ -1,0 +1,213 @@
+body {
+  background: url(images/see.jpg) no-repeat; /* Цвет фона и путь к файлу */
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+ 
+	}
+
+   p.kv10
+   {
+		position: absolute;
+		width: 200px;/*ширина рамок*/
+		padding: 7px;/*высота рамок*/ 
+		left: 900px;
+		text-align: center;
+		background: -moz-linear-gradient(#9ACD32, #DCDCDC);
+		background: -webkit-gradient(linear, 0 0, 0 100%, from(#9ACD32), to(#DCDCDC));
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9ACD32', endColorstr='#DCDCDC');
+		color: #333; /*цвет шрифта*/
+		border: 1px solid;/*рамка, можно с цветом*/
+		font: 20pt/15pt sans-serif; /*шрифт*/
+		border-radius: 100px;
+	   }
+   
+   p.kv1,p.kv2,p.kv3,p.kv4,p.kv4_1,p.kv5,p.kv7,p.kv8,p.kv9
+	   {
+		position: absolute;
+		width: 300px;/*ширина рамок*/
+		padding: 10px;/*высота рамок*/ 
+		left: 420px;
+		text-align: center;
+		background: -moz-linear-gradient(#A9A9A9, #DCDCDC);
+		background: -webkit-gradient(linear, 0 0, 0 100%, from(#A9A9A9), to(#DCDCDC));
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#A9A9A9', endColorstr='#DCDCDC');
+		color: #333; /*цвет шрифта*/
+		border: 1px solid;/*рамка, можно с цветом*/
+		font: 20pt/15pt sans-serif; /*шрифт*/
+	   }
+
+	p.kv9
+	{
+		top: 5px;
+	} 
+	p.kv1
+	{
+		top: 50px;
+	}
+	p.kv2
+	{
+		top: 100px;
+	}
+	p.kv3
+	{
+		top: 150px;
+	}
+	p.kv4
+	{
+		top: 200px;
+	}
+	p.kv4_1
+	{
+		top: 250px;
+	}
+	p.kv5
+	{
+		top: 400px;
+	}
+
+	p.kv7
+	{
+		top: 450px;
+	}
+	p.kv8
+	{
+		top: 500px;
+	}
+		p.kv10
+	{
+		top: 570px;
+	}
+	input.cal1, input.cal2
+	{
+	position: absolute;
+		width: 300px;/*ширина рамок*/
+		padding: 10px;/*высота рамок*/ 		
+		left: 750px;
+		text-align: center;
+		background: -moz-linear-gradient(HSB 0/0/100);
+		background: -webkit-gradient(linear, 0 0, 0 100%, from(HSB 0/0/100));
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='HSB 0/0/100');
+		color: #333; /*цвет шрифта*/
+		border: 1px solid ;/*рамка, можно с цветом*/
+		font: 20pt/15pt sans-serif; /*шрифт*/	
+	}
+	input.cal1
+	{
+	top: 75px;	
+	}
+	input.cal2
+	{
+	top: 225px;	
+	}
+	
+	select.opt1, select.opt3, select.opt4,select.opt1_1
+	{
+		position: absolute;
+		width: 325px;/*ширина рамок*/
+		padding: 2px;/*высота рамок*/ 
+		left: 750px;
+		text-align: center;
+		background: -moz-linear-gradient(HSB 0/0/100);
+		background: -webkit-gradient(linear, 0 0, 0 100%, from(HSB 0/0/100));
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='HSB 0/0/100');
+		color: #333; /*цвет шрифта*/
+		border: 1px solid ;/*рамка, можно с цветом*/
+		font: 20pt/15pt sans-serif; /*шрифт*/	
+	}
+	
+	select.opt1_1
+	{
+		top: 33px;
+	}
+	select.opt1
+	{
+		top: 130px;
+	}
+
+	select.opt3
+	{
+		top: 430px;
+	}
+	select.opt4
+	{
+		top: 277px;
+	}
+	input.pole1, input.pole2, input.pole3
+	{
+		position: absolute;
+		width: 307px;/*ширина рамок*/
+		padding: 6px;/*высота рамок*/ 
+		left: 750px;
+		text-align: center;
+		background: -moz-linear-gradient(HSB 0/0/100);
+		background: -webkit-gradient(linear, 0 0, 0 100%, from(HSB 0/0/100));
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='HSB 0/0/100');
+		color: #333; /*цвет шрифта*/
+		border: 1px solid ;/*рамка, можно с цветом*/
+		font: 20pt/15pt sans-serif; /*шрифт*/	
+	}
+	input.pole1
+	{
+		top: 180px;
+	}
+	input.pole2
+	{
+		top: 478px;
+	}
+	input.pole3
+	{
+		top: 540px;
+	}
+	
+	input.cnop1, input.cnop2
+	{
+		position: absolute;
+		width: 250px;/*ширина рамок*/
+		padding: 6px;/*высота рамок*/ 
+		text-align: center;
+		background: -moz-linear-gradient( #00FF00,#98FB98);
+		background: -webkit-gradient(linear, 0 0, 0 100%, from( #00FF00,#98FB98));
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00FF00', endColorstr='#98FB98');
+		color: #333; /*цвет шрифта*/
+		border: 1px solid ;/*рамка, можно с цветом*/
+		font: 20pt/15pt sans-serif; /*шрифт*/
+		-moz-border-radius: 50px;
+		-webkit-border-radius: 50px;
+		border-radius: 50px;
+		left: 630px;
+	}
+	input.cnop1
+	{
+		top: 330px;
+		width: 150px;
+	}
+	input.cnop2
+	{
+		top: 615px;
+	}
+	
+	button.cnop1
+		{
+		position: absolute;
+		width: 250px;
+		left: 30px;
+		align: center;
+		background: -moz-linear-gradient(#00FF7F, #66CDAA);
+		background: -webkit-gradient(linear, 0 0, 0 100%, from(#00FF7F), to(#66CDAA));
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00FF7F', endColorstr='#66CDAA');
+		padding: 10px 50px;
+		color: #333;
+		-moz-border-radius: 50px;
+		-webkit-border-radius: 50px;
+		border-radius: 50px;
+		border: 1px solid #000000;
+		font: 20pt/15pt sans-serif; 
+		top:30px;
+	    }
+	
+		
+		
+		
+		

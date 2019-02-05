@@ -1,0 +1,59 @@
+body {
+    background: url(images/pallets.jpg) no-repeat; /* Цвет фона и путь к файлу */-moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+    color: #98FB98; /* Цвет текста */
+   }
+	   .text {
+		text-align:  center;
+   }
+   button.new1, button.new2, button.new4 
+	   {
+		position: absolute;
+		width: 350px;
+		left: 630px;
+		text-align: center;
+		background: -moz-linear-gradient(#00BBD6, #EBFFFF);
+		background: -webkit-gradient(linear, 0 0, 0 100%, from(#00BBD6), to(#EBFFFF));
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00BBD6', endColorstr='#EBFFFF');
+		padding: 20px 50px;
+		color: #333;
+		-moz-border-radius: 50px;
+		-webkit-border-radius: 50px;
+		border-radius: 50px;
+		border: 1px solid #666;
+		font: 20pt/15pt sans-serif; 
+	   }
+   
+   button.new1 
+	   {
+	   top: 360px; 
+	   }
+   
+    button.new2 
+		{
+		top: 430px;
+	    }
+	button.new3 
+		{
+		position: absolute;
+		width: 350px;
+		left: 630px;
+		align: center;
+		background: -moz-linear-gradient(##FF4500, #EBFFFF);
+		background: -webkit-gradient(linear, 0 0, 0 100%, from(#FF4500), to(#EBFFFF));
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF4500', endColorstr='#EBFFFF');
+		padding: 20px 50px;
+		color: #333;
+		-moz-border-radius: 50px;
+		-webkit-border-radius: 50px;
+		border-radius: 50px;
+		border: 1px solid #000000;
+		font: 20pt/15pt sans-serif; 
+		top: 230px;
+	    }
+	button.new4 
+		{
+		top: 500px;
+	    }

@@ -1,0 +1,32 @@
+
+	button.cnop1
+		{
+    		position: fixed;
+    		width: 250px;
+    		left: 30px;
+    		align: center;
+    		background: -moz-linear-gradient(#00FF7F, #66CDAA);
+    		background: -webkit-gradient(linear, 0 0, 0 100%, from(#00FF7F), to(#66CDAA));
+    		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00FF7F', endColorstr='#66CDAA');
+    		padding: 10px 50px;
+    		color: #333;
+    		-moz-border-radius: 50px;
+    		-webkit-border-radius: 50px;
+    		border-radius: 50px;
+    		border: 1px solid #000000;
+    		font: 20pt/15pt sans-serif; 
+    		top:30px;
+	    }
+	    
+	    table 
+	    {
+            width: 300px; /* Ширина таблицы */
+            border: 1px solid black; /* Рамка вокруг таблицы */
+            margin: auto; /* Выравниваем таблицу по центру окна  */
+        }
+        
+        td 
+        {
+            text-align: center; /* Выравниваем текст по центру ячейки */
+        }
+	
